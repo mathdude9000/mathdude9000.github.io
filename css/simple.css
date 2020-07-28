@@ -27,7 +27,7 @@ ul.menu li.selected {
 }
 
 ul.menu li a:hover {
-    color: rgba(122, 41, 8, 0);
+    color: rgb(196, 81, 36);
     text-decoration: underline;
 }
 
