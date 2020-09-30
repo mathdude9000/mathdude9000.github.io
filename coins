@@ -1,0 +1,10 @@
+ul clas<s="menu">
+		<li><a href="about-me.html">About Me</a></li>	
+		<li><a href="books.html">My favorite Books</a></li>
+		<li><a href="family.html">My Family</a></li>	
+		<li><a href="pets.html">My pets</a></li>
+		<li><a href="food.html"> My favorite food</a></li>
+		<li><a href="diary.html">Diary</a></li>
+        <li><a href="coins.html">coins</a></li>
+	</ul> 
+	</body>
