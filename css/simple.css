@@ -1,5 +1,9 @@
 body {
-    font-family: roboto;
+    font-family:Verdana;
+    color: #333;
+    padding-left:100px;
+    background-color: orange;
+    color:teal;
 }
 
 ul.menu {
