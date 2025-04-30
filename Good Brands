@@ -1,6 +1,4 @@
-
-<!Doctype html>
-
+<!DOCTYPE html>
 <html>
 <head>
     <title>Good Brands</title>
@@ -9,8 +7,10 @@
 </head>
 <body>
 <body>
-    <ul class="menu">
+    <ul> class="menu">
         <li><a href="./">Home</a></li>
+</ul>
+
 <h2>Good brands</h2>
 <h3>Fender</h3>
 <p>Fender guitars work very well and their very affordable, but if you are a serious guitarist it's not the best choice for a guitar. There are a lot much higher quality brans that sound and look better. Overall Fender is a great brand of guitar for Beginner to intermediate players.Prices start at $200 and go to around $2000 (It depends if there is certian limited edtion guitars out)</p>
