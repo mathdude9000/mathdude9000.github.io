@@ -1,7 +1,11 @@
 
 <!Doctype html>
+
+<html>
 <head>
-<title>Good Brands</title>
+    <title>Good Brands</title>
+    <link type="text/css" rel="stylesheet" href="css/simple.css" />
+    <meta charset="utf-8" />
 </head>
 <h2>Good brands</h2>
 <h3>Fender</h3>
