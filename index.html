@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Home</title>
-	<link type="text/css" rel="stylesheet" href="css/simple.css" />
-	<meta charset="utf-8" />
+<meta charset="utf-8">
+<title>Test sample</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+body {
+    font-family:Verdana;
+    color: #333;
+    padding:100px;
+}
+.testClass{
+    background-color:yellow;
+}
+</style>
 </head>
 
+
+
+
+
+<!--This is a default HTML sample.-->
+
+
+
+
+
 <body>
-	<h1> CJ's website</h1>
-
-
-
-	<p>Hi click on a link to visit a page and enjoy</p>
-	<utv- shows.html">tv shows</a></li>
-	</ul>l class="menu">
-		<li><a href="about-me.html">About Me</a></li>
-		<li><a href="books.html">My Favorite Books</a></li>
-		<li><a href="family.html">My Family</a></li>
-		<li><a href="pets.html">My Pets</a></li>
-		<li><a href="food.html"> My Favorite Food</a></li>
-		<li><a href="coins.html">Coins</a></li>
-		<li><a href="libby.html">My Sissy</a></li>
-		<li><a href="favorite-pokemon.html">Favorite Pokemon</a></li>
-		<li><a href="recipes.html">recipes</a>
-</body>
-
-</html>
-<div style="text-align: center;">
-	<img src="images/broseph.jpg" alt="Picture
-	of my dog" width="35%" />
-
-	<img src="images/batty.jpg" alt="Picture
-	of my cat" width="35%" />
+<div class="testClass" onclick="clickMe()">
+You see a preview of the default HTML sample.
+<br>
+Click me to test the JavaScript functionality.
 </div>
+<script type="text/javascript">
+function clickMe()
+{
+var testClassDiv = document.getElementsByClassName("testClass")[0];
+var testText = testClassDiv.innerHTML;
+testClassDiv.innerHTML = testText.replace(/click me.+?functionality/i, "I was clicked, the JavaScript is working");
+}
+</script>
+</body>
+</html>
